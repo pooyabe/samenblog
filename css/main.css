@@ -1,0 +1,245 @@
+/*
+	SamenBlog MAINPAGE StyleSheet
+	By PooyaBehravesh
+*/
+@font-face {
+font-family: 'B Nazanin';
+src: url('../fonts/BNazanin.eot?#') format('eot'),
+url('../fonts/BNazanin.ttf') format('truetype'),
+url('../fonts/BNazanin.woff') format('woff');
+}
+::selection {
+  background: green;
+}
+::-moz-selection {
+  background: rgba(0,0,0,0.4);
+}*{
+	font-family: B Nazanin, sans-serif, Tahoma;
+	direction:rtl;
+	z-index:0;
+}html{
+	overflow-x:hidden;
+}body{
+	overflow-x:hidden !important;
+}.container{
+	width:100%;
+	margin:0% !important;
+	padding:0% !important;
+}.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background:#075294;
+  width:100%;
+  position:fixed;
+  z-index:1;
+  border:none;
+}section{
+	min-height:100vh !important;
+	height:auto;
+	overflow:hidden;
+	background-size: cover !important;
+	overflow:hidden !important;
+	overflow-x:hidden;
+}nav li:hover{
+	background: rgba(255,255,255,0.4);
+}
+/* Top Page */
+#top-page{
+	background:url("../img/top-page.jpg") no-repeat center center;
+}#top-page .row{
+	margin-top:18%;
+}.about-text{
+	font-size:16px;
+	text-align:justify;
+	line-height:30px;
+	background:rgba(255, 255, 255, 0.7);
+	border-radius:10px;
+	padding:1%;
+	width:40%;
+	margin-right:5%;
+}#large-header, #top-page.row, #demo-canvas{
+	position:absolute;
+}nav ul li a{
+	color: #fff !important;
+	font-size:1.2em
+}.ds-btn{margin-right:10%;}.ds-btn li{ list-style:none; float:right; padding:10px;}
+.ds-btn li a span{padding-left:15px;padding-right:5px;width:100%;display:inline-block; text-align:right;}
+.ds-btn li a span small{width:100%; display:inline-block; text-align:right;}
+/* Login Section */
+#login-page{
+	background:url("../img/bg-d.jpg") no-repeat center center;
+	background-attachment:  fixed;
+	background-size:100% !important;
+}#login-page .container{
+	background:rgba(255,255,255,0.1)
+}.login-content{
+	width:30%;
+	margin:15% 35%;
+	color:#fff;
+}.login-content input{
+	color:#fff;
+	background: rgba(0, 0, 0, 0.6);
+	height:5%;
+	font-size:1.3em;
+	border:none;
+	-moz-transition: ease-in-out, width .35s ease-in-out;
+}.login-content input:focus{
+	box-shadow:none !important;
+	background: rgba(0, 0, 0, 0.7);
+}.login-content .wow{
+	background: url("../img/samenblog.png") no-repeat,rgba(50, 50, 50, 0.5);
+	background-size: 80%;
+	background-position: 10%;
+	padding:2%;
+}
+/* Features */
+#look{
+	background:url("../img/bg-d.jpg") no-repeat center center;
+	background-attachment:  fixed;
+	background-size:100% !important;
+}#look .container{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000fff+0,207cca+0,207cca+15,0087be+100&0+0,1+15,1+100 */
+background: -moz-linear-gradient(bottom, rgba(255,255,255,0.1) 0%, rgba(32,124,202,0.2) 20%,rgba(32,124,202,0.3) 30%,rgba(0,135,190,0.4) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.1) 0%, rgba(32,124,202,0.2) 20%,rgba(32,124,202,0.3) 30%,rgba(0,135,190,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%, rgba(32,124,202,0.2) 20%,rgba(32,124,202,0.3) 80%); /* W3C, IE10+, FF16+*/
+}.browser{
+	width:40%;
+	margin:0% 30%;
+}.browser-head{
+	background:rgb(233, 239, 243);
+	border-radius:5px 5px 0px 0px !important;
+}.browser-body{
+	background:rgb(212, 228, 235);
+	min-height:8vh;
+	height:auto;
+	overflow:hidden;
+}.controls{
+	padding:2% 2%;
+}.browser h1{
+	color:#fff;
+}.browser-input{
+	direction:ltr;
+	text-align:left;
+	background:#fff;
+	height:5% !important;
+	border-radius:5px;
+	padding:2%;
+	width:63%;
+	float:left;
+	margin:2%;
+	font-size:20px;
+}.browser-body .idiv{
+	float:left;
+	width:30%;
+	height:auto;
+	overflow:hidden;
+	min-height:40px;
+	margin:2% -2% 2% 4%;
+}.browser-body .idiv .fa{
+	float:left;
+	margin:5%;
+	font-size:40px;
+	color:#9e9e9e;
+	cursor:default
+}.typing{
+  animation: blinker 0.5s linear infinite;
+}
+@keyframes blinker {  
+  50% { opacity: 0; }
+}#look .row div img{
+	width:100%;
+	
+}#look .row div p{
+	color:#fff;
+	padding:5%;
+	font-size:2em;
+	background: rgba(0,0,0,0.2);
+	border-radius: 5px;
+}#look .row div i{
+	position:relative;
+	top:5px;
+	margin-left:2%;
+	color:red;
+}#look .row div{
+	padding:5%;
+	float:right;
+}#look .row h1{
+	text-align:center;
+	color:#fff;
+}
+/* News */
+#news-page{
+	min-height:20vh !important;
+	height:auto;
+	background: rgba(0, 0, 0,0.7);
+}#news-page *{
+	color:#fff;
+}#news-page a.news-button{
+	float:left;
+	border:3px solid #fff;
+	border-radius:5px;
+	padding:2% 10%;
+	margin-top:-2%;
+	margin-left:5%;
+}#news-page .col-md-2{
+	background:rgb(0, 135, 190);
+	height:20vh
+}#news-page .col-md-10{
+	padding:2% 10%;
+}
+/* ADS */
+.ads img{
+	margin:1%;
+}
+/* Updated blogs */
+#new-posts{
+	min-height:69vh !important;
+	height:auto;
+	overflow:hidden;
+	background:url("../img/bg-p.jpg") no-repeat center center;
+	background-size:100% !important;
+}#new-posts .container{
+	background:rgba(255, 255, 255, 0.3);
+	min-height:69vh !important;
+	height:auto;
+}#new-posts .container .row div{
+	padding:2%;
+	margin-top:2%;
+}#new-posts .container .row .p{
+	font-size:20px;
+}#new-posts .container .row div .p .fa{
+	color:rgba(0,0,0,0.5)
+}#new-posts .blog-title {
+	color:#000 !important
+}#new-posts .blog-title i.fa-rss{
+	color:red !important
+}.highlighted-text{
+	background: -webkit-linear-gradient(0deg, rgba(0,0,0,0), #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}.fa{
+	cursor:default
+}
+/* Footer */
+#end{
+	background:rgba(0, 0, 0, 0.9);
+	min-height:20vh;
+	color:#fff;
+}#end .row .col-sm-3{
+	text-align: justify;
+	-moz-text-align-last: right;
+    text-align-last: right;
+	float:right;
+	padding:2% 5%;
+	font-size:16px;
+}#vil li{
+	list-style:none;
+	margin-top:2%;
+}#vil li i{
+	padding:1% 3%;
+}#buttons div button{
+	float:right;
+	width:45%;
+	margin:2%;
+	border-radius:0px;
+}

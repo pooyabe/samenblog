@@ -1,0 +1,105 @@
+    /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+	section{
+   overflow: hidden;
+	 min-height: 1vh !important;
+	}
+	#large-header{
+		display: none;
+	}
+	/* The Blog Posts Section */
+	#new-posts{
+    background-size: cover !important; 
+	}#new-posts .p i{
+		color:#000 !important;
+		font-size: 15px;
+	}#new-posts .p{
+		font-size: 17px !important;
+		text-align: justify !important;
+	}
+	#new-posts .container{
+		padding: 5% !important;
+	}.highlighted-text{
+	background: -webkit-linear-gradient(0deg, rgba(255,255,255,0), #000);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+	/* The Look Section */
+	#look{
+		background-size: cover !important;
+	}#look p{
+		font-size: 1.5em !important;
+		color:#fff !important;
+	}#look p, #look span, #look h1, #look i{
+		text-align: :justify;
+	}#look img{
+		width:90% !important;
+	  margin-right:5%;
+	}.browser{
+		width:98%;
+		margin:1%;
+	}.browser-input{
+		font-size: 0.9em
+	}.idiv i{
+		font-size:2.1em !important;
+	}.browser-body{
+		padding-top:3%;
+	}.controls svg{
+		width:55px !important;
+		margin:2%;
+		margin-bottom: -1%
+	}
+	/* Break Sections */
+#news-page .col-md-2{
+		display:none;
+	}#news-page img{
+		width:100%;
+		margin-top:5%;
+	}#news-page .col-xs-12 h1{
+		font-size: 2.1em !important;
+	}#news-page .col-xs-12 h1 a{
+		font-size: 0.5em !important;
+		margin:0;
+	}
+	/* Login Section */
+	#login-page{
+		padding:0;
+		background: #000 !important;
+		min-height: 1vh !important;
+	}#login-page .login-content{
+		width:95%;
+		margin:2%;
+	}
+	/* Top Page */
+	#top-page{
+		background-size: cover !important;
+	}#top-page .row{
+		margin:27% 5%;
+	}.about-text{
+		width:100%;
+	}.ds-btn{
+		padding:0% -20% !important;
+		float:right;
+	}
+	.ds-btn li{
+		margin:0px !important;
+		list-style:none;
+		width:100%;
+		padding-top:10px;
+	}
+.ds-btn li a span{
+	padding-left:0px;
+	width:100%;
+	display:inline-block;
+	text-align:right;
+	}
+.ds-btn li a span small{
+	width:100%;
+	display:inline-block;
+	text-align:right;
+	}
+}@media only screen and (max-width: 1515px) {
+	#news-page .col-md-2{
+		display:none;
+	}
+}
